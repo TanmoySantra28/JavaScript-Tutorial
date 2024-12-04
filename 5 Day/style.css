@@ -1,0 +1,32 @@
+#mybody{
+    background-color:rgb(164, 205, 228);
+}
+
+#myh1{
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;
+}
+#label1{
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-size: 68px;
+}
+#buttoncontent{
+    text-align: center;
+}
+.btns{
+    padding: 8px 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btns:hover{
+    background-color: rgb(64, 64, 64);
+}

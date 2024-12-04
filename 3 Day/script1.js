@@ -5,7 +5,7 @@ let y = "abc";
 let z = "abc";
 console.log(typeof x, typeof y, typeof z);
 x = Number(x);
-y = String(y);
+y = String(y); 
 z = Boolean(z);
 console.log(x, typeof x);
 console.log(y, typeof y);
