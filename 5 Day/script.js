@@ -18,4 +18,4 @@ decrease.onclick = function(){
 reset.onclick = function(){
     count = 0;
     digit.textContent=count;
-}
+} 

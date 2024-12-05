@@ -6,4 +6,4 @@ document.getElementById("mysubmit").onclick = function ()
     r = Number(r);
     p = 2*r*pi;
     document.getElementById("myp").textContent = `Perimeter : ${p}`;
-}
+} 
