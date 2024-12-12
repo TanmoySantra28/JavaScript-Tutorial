@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+    background: #e3fcff;
+}
+#myh1{
+    font-size: 35px;
+}
+#myRoll{
+    padding: 5px 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: 200;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+#myRoll:hover{
+    background-color: rgb(220, 240, 245);
+}
+.labels{
+    font-size: 25px;
+    font-weight: 500;
+}

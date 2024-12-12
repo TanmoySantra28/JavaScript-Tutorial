@@ -1,7 +1,6 @@
 #mybody{
     background-color:rgb(164, 205, 228);
 }
-
 #myh1{
     display: block;
     text-align: center;
@@ -14,8 +13,8 @@
     font-family: Arial;
     font-size: 68px;
 }
-#buttoncontent{
-    text-align: center;
+#buttoncontent{ 
+    text-align: center; 
 }
 .btns{
     padding: 8px 15px;
@@ -29,4 +28,4 @@
 }
 .btns:hover{
     background-color: rgb(64, 64, 64);
-} 
+}

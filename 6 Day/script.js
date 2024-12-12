@@ -9,7 +9,7 @@ let c = 9;
 let d = -3;
 let z;
 
-z = Math.round(a);
+z = Math.round(a); 
 console.log(`Rounded = ${z}`);
 
 z = Math.floor(a);

@@ -8,9 +8,9 @@ let count=0;
 increase.onclick = function(){
     count++;
     digit.textContent=count;
-}
+}   
 
-decrease.onclick = function(){
+decrease.onclick = function(){ 
     count--;
     digit.textContent=count;
 }
@@ -18,4 +18,4 @@ decrease.onclick = function(){
 reset.onclick = function(){
     count = 0;
     digit.textContent=count;
-} 
+}
