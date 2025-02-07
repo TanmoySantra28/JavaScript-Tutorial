@@ -14,7 +14,7 @@ console.log(z, typeof z);
 let a,b,c;
 console.log(a,b,c);
 a = Number(a);
-b = String(b); 
+b = String(b);
 c = Boolean(c);
 console.log(a, typeof a);
 console.log(b, typeof b);

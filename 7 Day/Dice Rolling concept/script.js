@@ -15,5 +15,5 @@ btn.onclick = function (){
     random3 = Math.floor(Math.random() * max ) + min;
     label1.textContent = random1;
     label2.textContent = random2;
-    label3.textContent = random3;
+    label3.textContent = random3; 
 }

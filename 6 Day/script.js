@@ -47,7 +47,7 @@ console.log(`Sign of a = ${z}`);
 
 z = Math.sign(d);
 console.log(`Sign of d = ${z}`);
-
+ 
 z = Math.sign(0);
 console.log(`Sign of 0 = ${z}`);
 

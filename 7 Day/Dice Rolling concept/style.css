@@ -12,7 +12,7 @@ body{
     border: 1px solid black;
     font-size: 25px;
     font-weight: 200;
-    border-radius: 5px;
+    border-radius: 5px; 
     cursor: pointer;
     transition: 0.15s;
 }

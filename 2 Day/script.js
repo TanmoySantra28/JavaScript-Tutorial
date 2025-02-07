@@ -6,12 +6,14 @@ let price = 25.89;
 console.log(`Quantity = ${quantiy}`);
 console.log(`Price = ${price}`);
 console.log(typeof price);
+
 //string
 let name1 = `Moumoni`;
 let name2 = `Tanmoy`;
 console.log(`Name = ${name1}`);
 console.log(`Name = ${name2}`);
 console.log(typeof name1);
+
 //boolean
 let x = true;
 let y = false;
