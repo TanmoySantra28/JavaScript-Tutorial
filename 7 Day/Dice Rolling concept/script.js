@@ -1,4 +1,4 @@
-const btn = document.getElementById("myRoll");
+const  btn = document.getElementById("myRoll");
 const label1 = document.getElementById("label1");
 const label2 = document.getElementById("label2");
 const label3 = document.getElementById("label3");
@@ -15,5 +15,5 @@ btn.onclick = function (){
     random3 = Math.floor(Math.random() * max ) + min;
     label1.textContent = random1;
     label2.textContent = random2;
-    label3.textContent = random3; 
+    label3.textContent = random3;
 }
