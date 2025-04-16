@@ -13,7 +13,6 @@ mySubmit.onclick = function() {
     else {
         printCheckbox.textContent = `You have not subscribed`;
     }
-
     if(visaCard.checked) {
         printRadio.textContent = `Prefered card is Visa`;
     }

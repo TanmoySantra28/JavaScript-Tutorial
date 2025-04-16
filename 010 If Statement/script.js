@@ -16,13 +16,13 @@
 //     console.log("PM");
 // }
 
-// let isStudent = true;
-// if(isStudent){
-//     console.log("You're student");
-// }
-// else{
-//     console.log("You ain't student");
-// }
+let isStudent = true;
+if(isStudent){
+    console.log("You're student");
+}
+else{
+    console.log("You ain't student");
+}
 
 let age = 20;
 let hasLicense = false;
@@ -37,4 +37,4 @@ if(age >= 18){
 }
 else{
     console.log("Age is lesser than 18");
-}
+} 
