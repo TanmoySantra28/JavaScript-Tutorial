@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Password Generator</h1>
+        <p>Select your preferences:</p>
+        <div>
+            <input type="checkbox" id="addLowerCase">
+            <label for="addLowerCase">Add Lowercase Letters</label>
+            <br>
+            <input type="checkbox" id="addUpperCase">
+            <label for="addUpperCase">Add Uppercase Letters</label>
+            <br>
+            <input type="checkbox" id="addNumbers">
+            <label for="addNumbers">Add Numbers</label>
+            <br>
+            <input type="checkbox" id="addSymbols">
+            <label for="addSymbols">Add Symbols</label>
+        </div>
+        <br>
+        <button onclick="pseudoMainFunction()">Generate</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
