@@ -18,3 +18,4 @@ console.log(fname);
 console.log(lname);
 console.log(age);
 console.log(job);
+ 

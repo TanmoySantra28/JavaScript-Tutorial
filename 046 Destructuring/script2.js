@@ -18,6 +18,6 @@ function displayPerson({fname, lname, age, job="none"}){   //using the {} we are
     console.log(`Age: ${age}`);
     console.log(`Job: ${job}`);
 }
-
+ 
 displayPerson(person1); //passing an object as argument to the function
 displayPerson(person2); //passing an object as argument to the function

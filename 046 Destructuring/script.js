@@ -18,7 +18,7 @@ const fruits = ["pear", "mango", "litchi", "melon", "orange"];
 [fruits[0],fruits[4]] = [fruits[4],fruits[0]];
 //we are swaping mango with litchi
 [fruits[1],fruits[2]] = [fruits[2],fruits[1]];
-console.log(fruits);
+console.log(fruits); 
 
 //Example - assign array elements to variables
 
