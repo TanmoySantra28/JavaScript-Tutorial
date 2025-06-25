@@ -18,7 +18,7 @@ function changeColor(event){
 
 //when we click on the myBox, it will trigger the changeColor function, as it is the callback
 myBox.addEventListener("click", changeColor); //we don't need to pass event object here as argument.
-
+ 
 //we don't neccessarily pass an callback, we can pass an anonymous function or an arrow function
 //mouseout means when we hover the cursor over the element,  it will trigger the arrow function
 myBox.addEventListener("mouseover", event => {
@@ -30,7 +30,7 @@ myBox.addEventListener("mouseover", event => {
 myBox.addEventListener("mouseout", event => {
     event.target.style.backgroundColor = "lightblue";
     event.target.textContent = "Don't Click it 🤨";
-})
+});
 
 /*
 click = when we click the box,

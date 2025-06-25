@@ -11,7 +11,7 @@ document.addEventListener("keydown", event => {
     myBox.style.backgroundColor = "lightcoral";
 
     if(event.key.startsWith("Arrow")){  //we are only allowing arrowkeys
-
+ 
         //arrow keys have a default behaviour to scroll, that's why we can see the scrollbar if we went down too far
         event.preventDefault();    //to prevent the default behaviour,
         

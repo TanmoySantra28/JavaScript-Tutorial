@@ -18,4 +18,4 @@ document.addEventListener("keyup", event => {
     console.log(`Key up = ${event.key}`); //it will show the key
     myBox.textContent = "🚕";   //when we release that key, element will be like this
     myBox.style.backgroundColor = "lightblue";
-});
+}); 

@@ -32,4 +32,4 @@ document.getElementById("box1").append(newH1); //we can append the h1 element to
 
 //Remove HTML element
 // document.body.removeChild(newH1); //it will remove the element from body
-document.getElementById("box1").removeChild(newH1); //it will remove the element, when it is in amother element
+document.getElementById("box1").removeChild(newH1); //it will remove the element, when it is in amother element 

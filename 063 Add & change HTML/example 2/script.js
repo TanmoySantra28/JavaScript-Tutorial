@@ -20,7 +20,7 @@ newListItem.style.backgroundColor = "yellow";
 //to insert before an list item (for example orange), we use indertBefore(newElement, currentElement)
 // const orange = document.getElementById("orange");
 // document.getElementById("fruits").insertBefore(newListItem, orange);
-
+ 
 //if the html elements don't have any id, we use querySelectorAll to select all list items
 const listItems = document.querySelectorAll("#fruits li"); //it is a nodelist
 document.getElementById("fruits").insertBefore(newListItem, listItems[2]); //use index number for select specific element

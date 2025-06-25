@@ -18,5 +18,5 @@ myButton.addEventListener("mouseover", event => {
 //when we leave hovering the button, it will change the myBox's color and text
 myButton.addEventListener("mouseout", event => {
     myBox.style.backgroundColor = "lightblue";
-    myBox.textContent = "Don't Click it 🤨";
+    myBox.textContent = "Don't Click it 🤨"; 
 })
