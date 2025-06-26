@@ -30,7 +30,7 @@ function cleanKitchen(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            const isCleanKitchen = true;
+            const isCleanKitchen = false;
 
             if (isCleanKitchen) {
                 resolve("You clean the kitchen");
@@ -67,4 +67,7 @@ function takeOutTrash(){
 cutVegies().then(value => {console.log(value); return cleanKitchen()})
             .then(value => {console.log(value); return takeOutTrash()})
             .then(value => {console.log(value); console.log("All works finished")})
-            .catch(error => console.error);
+            .catch(error => console.error(error)); 
+        //we need to use catch() method to print the reject message
+
+//when one promise is rejected, next promises won't be attempted to resolve
