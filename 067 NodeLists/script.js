@@ -13,13 +13,13 @@ buttons.forEach(button => {
     button.textContent += "🔵";
 });
 
-//add Click event listene0.r
+//add Click event listener
 buttons.forEach(button => {
     button.addEventListener("click", event => {
         event.target.style.backgroundColor = "tomato"; //when we click bg color will change
     });
 });
-
+ 
 //Mouseover and Mouseout event listener
 buttons.forEach(button => {
     button.addEventListener("mouseover", event => {

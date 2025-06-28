@@ -18,9 +18,9 @@ console.log(buttons); //now the nodelist contains 5 elements
 buttons.forEach(button => {
     button.addEventListener("click", event => {
         event.target.remove();
-        //even though we remove the buttons from the DOM, the node still have 4 elements, we have to update it manually
+        //even though we remove the buttons from the DOM, the nodelist still have 5 elements, we have to update it manually
         buttons = document.querySelectorAll(".myButtons");
         console.log(buttons);
     });
 });
- 
+  
