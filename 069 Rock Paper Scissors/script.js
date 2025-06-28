@@ -10,7 +10,7 @@ let playerScore = 0;
 let computerScore = 0;
 
 function playGame(playerChoice){
-
+ 
     const computerChoice = choices[Math.floor(Math.random() * 3)]; //the random index can be 0 to 2, it will choose a value from array of strings
     let result = "";
 

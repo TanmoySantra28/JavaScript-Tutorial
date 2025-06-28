@@ -14,7 +14,7 @@ buttons.forEach(button => {
     button.addEventListener("mouseout", event => {
         event.target.classList.toggle("hover"); //when we leave hovering over the elements, it will toggle the "hover" class
     });
-});
+}); 
 
 buttons.forEach(button => {
     button.addEventListener("click", event => {
