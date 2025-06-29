@@ -64,10 +64,16 @@ function takeOutTrash(){
 //cutVegies() method return the message as, store it to value within the then() method and print it
 //then return another function within the then() method and invoke the function
 //use another then() method for doing the same
-cutVegies().then(value => {console.log(value); return cleanKitchen()})
-            .then(value => {console.log(value); return takeOutTrash()})
-            .then(value => {console.log(value); console.log("All works finished")})
+cutVegies().then(value => {
+                console.log(value); 
+                return cleanKitchen()})
+            .then(value => {
+                console.log(value); 
+                return takeOutTrash()})
+            .then(value => {
+                console.log(value); 
+                console.log("All works finished")})
             .catch(error => console.error(error)); 
         //we need to use catch() method to print the reject message
 
-//when one promise is rejected, next promises won't be attempted to resolve
+//when one promise is rejected, next promises won't be attempted to resolve 

@@ -37,6 +37,6 @@ cutVegies(() => {
             console.log("All works completed");
         });
     });
-});
+}); 
 
 //to avoid callback hell, we can use promises
