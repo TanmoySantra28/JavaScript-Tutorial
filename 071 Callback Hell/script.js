@@ -11,7 +11,7 @@ function task1(callback){
         console.log("Task 1 completed");
         callback();
     },2000);
-}
+} 
 
 function task2(callback){
     setTimeout(() => {

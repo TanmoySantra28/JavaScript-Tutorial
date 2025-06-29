@@ -16,7 +16,7 @@ function initializeSlider(){
         slides[slideIndex].classList.add("displaySlide"); 
         intervalId = setInterval(nextSlide, 5000); // after 5 sec, next slide will come, and it returns a interval id
     }
-}
+} 
 
 //function to show the slides
 function showSlide(index){
