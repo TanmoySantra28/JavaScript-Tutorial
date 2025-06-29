@@ -32,3 +32,4 @@ fetch("people.json")
          console.log(value.age); //print any particular key values
      }))
      .catch(error => console.log(error));
+ 

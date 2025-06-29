@@ -19,7 +19,7 @@ const jsonString = JSON.stringify(names); //stringify the array
 const jsonString1 = JSON.stringify(person); //stringify the object
 const jsonString2 = JSON.stringify(people); //stringify the array of objects
 
-
+ 
 console.log(jsonString); //it will print one long json string
 console.log(jsonString1); //it will print one long json string
 console.log(jsonString2); //it will print one long json string
