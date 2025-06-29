@@ -8,13 +8,13 @@
 
 
 //a function can be declared with async, will return a promise
-//the returned promise don't resolve or reject, it is kind off like an empty promise, so it is meaningless,
+//the returned promise don't have resolve or reject, it is kind off like an empty promise, so it is meaningless,
 //So we need to create a different async function and calling the asynchronous functions in synchronous order using Await
 //async works with together await
 //async function cutVegies(){...} (meaningless)
  function cutVegies(){ 
 
-    // return new Promise((resolve, reject) => {...));  
+    // return new Promise(() => {...));  
     // there's no resolve or reject, it will throw uncaught reference error, to solve async must be used with await
     return new Promise((resolve, reject) => { 
         setTimeout(() => {
