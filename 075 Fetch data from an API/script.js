@@ -10,9 +10,9 @@
 
 //to fetch something from an API we use fetch() function and pass the url
 //fetch is promised based so can either be resolve or reject
-
+ 
 fetch("https://pokeapi.co/api/v2/pokemon/ditto")
-     .then(response => response.json())      //convert the object we get from the api as response and then convert it into json format
+     .then(response => response.json())      //store the object we get from the api as response and then convert it into json format
      .then(data => console.log(data.name, data.weight))  //we can access any specific property
      .catch(error => console.error(error)); //if the resource not found, then caught the error
 
