@@ -24,7 +24,8 @@ fetch("https://pokeapi.co/api/v2/pokemon/ditto")
         if(!response.ok){ //when resource not found so, the response's ok:false, then we throw a new error 
             throw new Error("Could not fetch resource");
         }
-        return response.json(); //otherwise format as json
+        return response.json(); //otherwise format as JSON
      })      
      .then(data => console.log(data.name, data.weight))  
      .catch(error => console.error(error)); 
+ 
